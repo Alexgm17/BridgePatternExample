@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-232.5" y="36.5">bridge.Principal</node>
+    <node x="-331.5" y="-170.5">bridge.Avion</node>
+    <node x="-4.5" y="-152.5">bridge.Negro</node>
+    <node x="124.5" y="-156.5">bridge.Amarillo</node>
+    <node x="-132.5" y="-154.5">bridge.Blanco</node>
+    <node x="-513.5" y="-167.5">bridge.Coche</node>
+    <node x="-1.5" y="-290.5">bridge.Color</node>
+    <node x="-427.5" y="-291.5">bridge.Vehiculo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bridge.Vehiculo" target="bridge.Color">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Negro" target="bridge.Color">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Amarillo" target="bridge.Color">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Avion" target="bridge.Vehiculo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Coche" target="bridge.Vehiculo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Principal" target="bridge.Coche">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Principal" target="bridge.Avion">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Principal" target="bridge.Vehiculo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Principal" target="bridge.Amarillo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Principal" target="bridge.Blanco">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Blanco" target="bridge.Color">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bridge.Principal" target="bridge.Negro">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
